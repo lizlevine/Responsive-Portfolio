@@ -1,9 +1,7 @@
+
 * {
   box-sizing: border-box;
 }
-
-/*         <img src="assets/images/IMG_2316.jpg" height: 200px width: 200px class="auth-image" alt="Liz & Reiki picture">
-   */
 
 body {
   background-image: url("../images/lilypads.png");
@@ -244,3 +242,55 @@ input[type="submit"] {
   padding: 10px 30px;
   cursor: pointer;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+  
+  .main-container {
+    background-color: cornsilk;
+  }
+
+@media screen and (max-width: 768px) {
+ .main-container { 
+   /* font-size: 14px; */
+    background-color: #ccc;
+    margin: 40px;
+}
+
+
+@media only screen and (max-width: 640px) {
+ 
+  #navbar{
+    position: static;
+    margin-bottom: 20px;
+     /* Box-model */
+     width: 100%;
+
+     /* Positioning */
+     margin: 15px 0;
+ 
+     /* Typography */
+     text-align: center;
+    
+  }
+
+  .main-container { 
+    /* font-size: 14px; */
+     background-color: cornsilk;
+     /* margin-right: 40px; */
+ }
+
+  #logo {
+    width: 100px;
+    height: 80px;
+    background-color: cornflowerblue;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: cyan; 
+    font-weight: 500;
+    /* font-size: 30px;
+    text-decoration: none; */
+  }
