@@ -1,4 +1,4 @@
-
+@import url("reset.css");
 * {
   box-sizing: border-box;
 }
@@ -279,7 +279,7 @@ input[type="submit"] {
     /* font-size: 14px; */
      background-color: cornsilk;
      /* margin-right: 40px; */
- }
+  }
 
   #logo {
     width: 100px;
@@ -294,3 +294,4 @@ input[type="submit"] {
     /* font-size: 30px;
     text-decoration: none; */
   }
+}
