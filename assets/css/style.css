@@ -245,53 +245,123 @@ input[type="submit"] {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 980px) {
-  
+@media only screen and (max-width: 980px) {
+  #navbar {
+    margin-right: 10px;
+    padding-right: 20px;
+    margin-bottom: 0;
+  }
+
   .main-container {
+    padding: 40px;
+  }
+
+  /* #main-container {
+    padding: 40px;
+    
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    max-width: 100%;
+    /* font-size: 16px; */
+    /* padding: 30px; */
+    /* margin: 0 0 40px 0;
+    margin: 30px; */
+    /* width: 100%; */
+    /* max-width: 768px; */
     background-color: cornsilk;
   }
 
-@media screen and (max-width: 768px) {
- .main-container { 
-   /* font-size: 14px; */
-    background-color: #ccc;
-    margin: 40px;
+  #main-container {
+    width: 100%;
+    /* max-width: 768px; */
+    /* margin: 0; */
+    /* padding: 20px; */
+    overflow: auto;
+    padding-top: 20px;
+  }
+  #navbar {
+    position: static;
+    /* margin-bottom: 20px; */
+    padding-right: 20px;
+    width: 100%;
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+  }
+
+  .container {
+    padding: 20px;
+    width: 100%;
+    /* max-width: 768px; */
+  }
+}
+.work:nth-child(both) {
+  float: right;
 }
 
+#contact-form {
+  margin: 30px;
+}
+
+#contact {
+  margin-left: 30px;
+}
+
+/* .work h3 {
+    width: 70%;
+    line-height: 20px;  */
 
 @media only screen and (max-width: 640px) {
- 
-  #navbar{
+  #navbar {
     position: static;
     margin-bottom: 20px;
-     /* Box-model */
-     width: 100%;
-
-     /* Positioning */
-     margin: 15px 0;
- 
-     /* Typography */
-     text-align: center;
-    
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
   }
 
-  .main-container { 
+  .container {
+    margin-right: 20px;
+  }
+
+  .main-container {
     /* font-size: 14px; */
-     background-color: cornsilk;
-     /* margin-right: 40px; */
+    background-color: cornsilk;
+    /* margin-right: 40px; */
   }
+  #main-container {
+    margin-top: 20px;
+  }
+  /* #main-container {
+    margin-top: 20px; */
 
   #logo {
-    width: 100px;
-    height: 80px;
-    background-color: cornflowerblue;
+    /* width: 100px;
+    height: 100px; */
+    background-color: #999;
     float: left;
     font-family: "Georgia", Times, Times New Roman, serif;
     text-align: center;
-    line-height: 90px;
-    color: cyan; 
+    line-height: 80px;
+    color: cyan;
     font-weight: 500;
-    /* font-size: 30px;
-    text-decoration: none; */
+  }
+  .auth-image {
+    width: 100%;
+  }
+
+  /* p {
+    padding: 20px;
+  } */
+
+  .work img {
+    /* width: 70%;
+    line-height: 20px;  */
+    float: left;
+  }
+  .container {
+    padding: 10px;
   }
 }
